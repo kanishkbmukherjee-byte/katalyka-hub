@@ -25,7 +25,15 @@ const Navigation = () => {
             <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">K</span>
             </div>
-            <span className="font-bold text-lg text-foreground hidden md:inline">
+            <div className="hidden lg:block">
+              <div className="font-bold text-base text-foreground leading-tight">
+                Katalyka Consultancy Foundation
+              </div>
+              <div className="text-xs text-muted-foreground">
+                for Education and Empowerment
+              </div>
+            </div>
+            <span className="font-bold text-base text-foreground hidden md:inline lg:hidden">
               Katalyka Consultancy
             </span>
           </Link>
